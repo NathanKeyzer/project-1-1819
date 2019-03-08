@@ -1,13 +1,17 @@
 # Project 1 @cmda-minor-web · 2018-2019
 
+[Live Demo](https://clever-mcnulty-6e5b60.netlify.com/)
+![oba voor studenten](https://github.com/NathanKeyzer/project-1-1819/blob/master/src/img/NathanKeyzer.png?raw=true)
+
+## Concept
+
+Middels deze toepassing kunnen studenten nu gemakkelijk hun studieboeken vinden in de OBA.
+
 ## Zoek in de de collectie van de OBA
 
-Het project vindt plaats bij de Centrale OBA. Maandagochtend is om 10.00 uur de kickoff, vrijdag zijn de presentaties van de resultaten. In een week bouwt iedere student een eigen prototype dat bezoekers kan helpen om items uit de OBA collectie te vinden. Technieken geleerd bij [CSS to the Rescue](https://github.com/cmda-minor-web/css-to-the-rescue-1819) en [Web App from Scratch](https://github.com/cmda-minor-web/web-app-from-scratch-1819) worden toegepast bij het bouwen van de de prototypes.
+Met deze app moet het studeren een hele andere ervaring bieden aan de student. Hij of zij krijgt veel duidelijker te zien wat er beschikbaar is op de betreffende OBA locatie. Denk hierbij aan boeken en studieplekken.
 
-We verzamelen maandagochtend om 09.45 op de 1e verdieping van de Centrale OBA, [Oosterdokskade 143](https://www.google.com/maps/place/OBA+library+of+Amsterdam/@52.3756983,4.9082087,15z/data=!4m2!3m1!1s0x0:0x6b97f693e6ecb494?ved=2ahUKEwioo6OrzubgAhWLNOwKHR6KDQgQ_BIwCnoECAYQCA).
+## Wishlist
 
-## Global idea!
-
-### Concept one
-
-Mijn concept is dat de gebruiker
+- [x] Boeken tonen per studie.
+- [ ] Overzicht mogelijke studieplekken.

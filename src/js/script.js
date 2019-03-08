@@ -71,4 +71,4 @@ function handleInput(dorus) {
   init(voorkeur[2].value);
 }
 voorkeur.addEventListener("submit", handleInput);
-init("Paul_van_Loon");
+init("Amsterdam");
