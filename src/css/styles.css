@@ -1,1 +1,243 @@
+* {
+  font-family: Avenir-Roman, Calibri, Arial, sans-serif;
+  color: #4a4a4a;
+}
+/*
+========================================================
+    main
+========================================================
+*/
+body {
+  background-color: rgb(243, 240, 236);
+}
+h1 {
+  font-family: Avenir-Roman, Calibri, Arial, sans-serif;
+  color: #4a4a4a;
+}
+h2 {
+  padding-left: 1rem;
+  padding-top: 1rem;
+}
+h3 {
+  padding-left: 1rem;
+  padding-top: 1rem;
+}
+main {
+  background: white;
+  width: 45%;
+  padding: 0 0 0 1rem;
+  margin: 0 0 0 1rem;
+}
+header {
+  background-color: white;
+}
+nav {
+  display: flex;
+  flex-flow: row wrap;
+}
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style: none;
+}
+nav ul li {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1em;
+}
 
+/* nav ul li {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: row wrap;
+  justify-content: space-around;
+  list-style: none;
+} */
+.logo {
+  background-image: url(../img/oba_logo.png) no-repeat top left;
+  padding: 1rem 0 0 1rem;
+  margin: 1rem 0 0 1rem;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding-left: 1rem;
+  padding-bottom: 1rem;
+  width: 50%;
+}
+label {
+  padding-top: 0.5rem;
+}
+input {
+  border: 1px solid #eee;
+  border-radius: 10px;
+  width: 100%;
+  height: 35px;
+  line-height: 35px;
+  background-color: rgb(243, 240, 236);
+  /* background-color: #fff; */
+  font-size: 1em;
+  font-weight: 500;
+  color: #333;
+  outline: none;
+  padding-left: 15px;
+}
+input:focus,
+input:hover {
+  border: 1px solid black;
+  box-shadow: 3px 3px 10px #eee;
+}
+select {
+  border: 2px solid #eee;
+  border-radius: 10px;
+  width: 100%;
+  height: 35px;
+  line-height: 35px;
+  background-color: rgb(243, 240, 236);
+  font-size: 1em;
+  font-weight: 500;
+  color: #333;
+  outline: none;
+  padding-left: 15px;
+  box-shadow: 3px 3px 30px #eee;
+  transition: 0.2s;
+}
+select:focus,
+select:hover {
+  box-shadow: 3px 3px 10px #eee;
+  border: 1px solid black;
+}
+button {
+  margin-top: 1rem;
+  background-color: rgb(243, 240, 236);
+  border: 2px solid #eee;
+  border-radius: 10px;
+  width: 100%;
+  height: 35px;
+  line-height: 35px;
+  background-color: rgb(243, 240, 236);
+  /* background: #fff; */
+  font-size: 1em;
+  font-weight: 500;
+  color: #333;
+  outline: none;
+  padding-left: 15px;
+  box-shadow: 3px 3px 30px #eee;
+  transition: 0.2s;
+}
+button:focus,
+button:hover {
+  box-shadow: 3px 3px 10px #eee;
+  border: 1px solid black;
+}
+button:active {
+  border: 1px solid black;
+  background-color: #ff5661;
+}
+
+/*
+========================================================
+    boekenlijst
+========================================================
+*/
+.boeken section {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  /* border-radius: 1rem; */
+  margin: 0.4em 04rem 0.4em 0.4rem;
+  height: 260px;
+  width: 350px;
+  max-width: 350px;
+  background-color: white;
+  /* background-color: #ff5661; rode kleur van oba*/
+  box-shadow: 3px 3px 10px #eee;
+}
+.boeken {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0.5rem 0 0 0;
+}
+.boeken div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  width: 300px;
+  max-width: 300px;
+}
+.boeken p {
+  font-family: Avenir-Roman, Calibri, Arial, sans-serif;
+  font-size: 1em;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 15px;
+  /* margin: 5px 0 0 0; */
+}
+.boeken p:first-child {
+  font-weight: bold;
+  color: #000;
+}
+.boeken p:last-child {
+  font-weight: lighter;
+  font-style: italic;
+  color: #ff5661;
+}
+img {
+  /* border-radius: 1rem 0 0 1rem; */
+  height: 260px;
+}
+
+/*
+========================================================
+    loader
+========================================================
+*/
+.spinner {
+  width: 40px;
+  height: 40px;
+  position: relative;
+  margin: 100px auto;
+}
+.double-bounce1,
+.double-bounce2 {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: #333;
+  opacity: 0.6;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  -webkit-animation: sk-bounce 2s infinite ease-in-out;
+  animation: sk-bounce 2s infinite ease-in-out;
+}
+.double-bounce2 {
+  -webkit-animation-delay: -1s;
+  animation-delay: -1s;
+}
+@-webkit-keyframes sk-bounce {
+  0%,
+  100% {
+    -webkit-transform: scale(0);
+  }
+  50% {
+    -webkit-transform: scale(1);
+  }
+}
+@keyframes sk-bounce {
+  0%,
+  100% {
+    transform: scale(0);
+    -webkit-transform: scale(0);
+  }
+  50% {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+  }
+}

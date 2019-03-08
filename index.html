@@ -1,1 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="./src/css/styles.css" />
+    <title>Oba voor studenten</title>
+  </head>
+  <body>
+    <h1>Oba voor Studenten</h1>
+    <header>
+      <nav>
+        <div class="logo"><img src="src/img/oba_logo.svg" alt="" /></div>
+        <main>
+          <section class="profiel">
+            <h2>Profiel</h2>
+            <form
+              id="inputform"
+              class="voorkeur"
+              action="index.html"
+              method="post"
+            >
+              <label for="naam">Naam</label>
+              <input type="text" name="naam" value="" placeholder="Naam" />
+              <label for="rol">Ik ben</label>
+              <select class="" name="rol">
+                <option value="kind">Kind</option>
+                <option value="student">Student</option>
+                <option value="volwassene">Volwassene</option>
+              </select>
 
+              <label for="rol">Ik studeer</label>
+              <select class="" name="rol">
+                <option value="cmd">CMD</option>
+                <option value="techniek">Techniek</option>
+                <option value="economie">Economie</option>
+                <option value="zorgen-en-welzijn">Zorg en Welzijn</option>
+                <option value="geschiedenis">Geschiedenis</option>
+                <option value="motorvoertuigen">Motorvoertuigen</option>
+              </select>
+
+              <label for="">OBA Locatie</label>
+              <select class="" name="oba">
+                <option value="oosterdok">Oosterdok</option>
+                <option value="bosenlommer">Bos en Lommer</option>
+                <option value="noord">Noord</option>
+              </select>
+
+              <label for="">Reden bezoek</label>
+              <select class="" name="oba">
+                <option value="studeren">Studeerplek</option>
+                <option value="tentamen">Tentamen voorbereiden</option>
+              </select>
+              <button type="submit" name="button">Submit</button>
+            </form>
+          </section>
+        </main>
+      </nav>
+    </header>
+    <h3>Resultaten</h3>
+
+    <div class="boeken"></div>
+    <script src="./src/js/script.js" type="module"></script>
+  </body>
+</html>
